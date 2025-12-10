@@ -71,7 +71,7 @@ export const Methodology = () => {
             <div className="relative w-full pt-[56.25%] overflow-hidden rounded-2xl shadow-2xl">
               <iframe
                 className="absolute top-0 left-0 w-full h-full"
-                src="https://www.youtube.com/embed/nv-i-Kkyekw?autoplay=1&mute=1&controls=1"
+                src="https://www.youtube.com/embed/Xrdyu92tZ1Y?autoplay=1&mute=1&controls=1"
                 title="Bhive Academy"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
@@ -97,22 +97,22 @@ export const Methodology = () => {
 
         <div className="mb-16 relative z-10">
           <h2 className="text-3xl md:text-5xl font-bold mb-4 text-transparent bg-clip-text bg-primary-gradient">{t('aiNeuroscienceTitle')}</h2>
-          <p className="dark:text-bhive-subtext light:text-gray-600">{t('aiNeuroscienceDesc')}</p>
+          <p className="dark:text-bhive-subtext light:text-white">{t('aiNeuroscienceDesc')}</p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 relative z-10">
           {[
-            { icon: Zap, color: "dark:text-yellow-400 light:text-yellow-600", title: t('predictiveCoach'), desc: t('predictiveCoachDesc') },
-            { icon: BrainCircuit, color: "dark:text-pink-400 light:text-pink-600", title: t('learningGraph'), desc: t('learningGraphDesc') },
-            { icon: Layers, color: "dark:text-cyan-400 light:text-cyan-600", title: t('activeRecall'), desc: t('activeRecallDesc') },
-            { icon: Clock, color: "dark:text-green-400 light:text-green-600", title: t('sleepSmartReviews'), desc: t('sleepSmartReviewsDesc') },
-            { icon: Users, color: "dark:text-indigo-400 light:text-indigo-600", title: t('socialLearning'), desc: t('socialLearningDesc') },
-            { icon: ShieldCheck, color: "dark:text-red-400 light:text-red-600", title: t('cognitiveLoadBalancer'), desc: t('cognitiveLoadBalancerDesc') },
+            { icon: Zap, color: "dark:text-yellow-400 light:text-yellow-400", title: t('predictiveCoach'), desc: t('predictiveCoachDesc') },
+            { icon: BrainCircuit, color: "dark:text-pink-400 light:text-pink-400", title: t('learningGraph'), desc: t('learningGraphDesc') },
+            { icon: Layers, color: "dark:text-cyan-400 light:text-cyan-400", title: t('activeRecall'), desc: t('activeRecallDesc') },
+            { icon: Clock, color: "dark:text-green-400 light:text-green-400", title: t('sleepSmartReviews'), desc: t('sleepSmartReviewsDesc') },
+            { icon: Users, color: "dark:text-indigo-400 light:text-indigo-400", title: t('socialLearning'), desc: t('socialLearningDesc') },
+            { icon: ShieldCheck, color: "dark:text-red-400 light:text-red-400", title: t('cognitiveLoadBalancer'), desc: t('cognitiveLoadBalancerDesc') },
           ].map((item, index) => (
-            <div key={index} className="p-6 rounded-2xl dark:bg-gradient-to-b dark:from-white/[0.05] dark:to-white/[0.01] light:bg-gradient-to-b light:from-gray-100 light:to-gray-50 backdrop-blur-xl border dark:border-white/10 light:border-gray-200 dark:hover:from-white/[0.1] dark:hover:to-white/[0.02] light:hover:from-gray-200 light:hover:to-gray-100 dark:hover:border-white/20 light:hover:border-gray-300 transition-all duration-300 shadow-lg">
+            <div key={index} className="p-6 rounded-2xl dark:bg-gradient-to-b dark:from-white/[0.05] dark:to-white/[0.01] light:bg-gradient-to-b light:from-white/[0.05] light:to-white/[0.01] backdrop-blur-xl border dark:border-white/10 light:border-white/10 dark:hover:from-white/[0.1] dark:hover:to-white/[0.02] light:hover:from-white/[0.08] light:hover:to-white/[0.02] dark:hover:border-white/20 light:hover:border-white/20 transition-all duration-300 shadow-lg dark:shadow-black/20 light:shadow-black/10">
               <item.icon className={`${item.color} mb-4 w-8 h-8`} />
-              <h4 className="text-lg font-bold dark:text-white light:text-gray-900 mb-2">{item.title}</h4>
-              <p className="text-sm dark:text-bhive-subtext light:text-gray-600">{item.desc}</p>
+              <h4 className="text-lg font-bold dark:text-white light:text-white mb-2">{item.title}</h4>
+              <p className="text-sm dark:text-bhive-subtext light:text-white/70">{item.desc}</p>
             </div>
           ))}
         </div>

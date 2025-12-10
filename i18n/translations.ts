@@ -46,6 +46,14 @@ export const translations = {
     pedagogicalCare: 'Cuidado Pedagógico',
     pedagogicalCareDesc: 'Dados acionáveis para professores, gestores e times de T&D intervirem com precisão – onde realmente importa.',
 
+    // Hero - Hardcoded UI Elements
+    learningGraphActive: 'Learning Graph Ativo',
+    cognitiveLabelPt: 'Carga Cognitiva',
+    engagementLabelPt: 'Engajamento',
+    codeSnippet1: 'analisando_foco_aluno(id=492)... OK',
+    codeSnippet2: 'gerando_intervencao(tipo="active_recall")...',
+    codeSnippet3: 'status_avatar_sasha: ouvindo',
+
     // Product - Sasha
     livetutoring: 'Tutoria Viva',
     sashaTitle: 'Sasha – a tutora da aprendizagem viva',
@@ -185,6 +193,14 @@ export const translations = {
     pedagogicalCare: 'Pedagogical Care',
     pedagogicalCareDesc: 'Actionable data for teachers, managers, and L&D teams to intervene with precision – where it really matters.',
 
+    // Hero - Hardcoded UI Elements
+    learningGraphActive: 'Learning Graph Active',
+    cognitiveLabelPt: 'Cognitive Load',
+    engagementLabelPt: 'Engagement',
+    codeSnippet1: '> analyzing_student_focus(id=492)... OK',
+    codeSnippet2: '> generating_intervention(type="active_recall")...',
+    codeSnippet3: '> sasha_avatar_status: listening',
+
     // Product - Sasha
     livetutoring: 'Live Tutoring',
     sashaTitle: 'Sasha – the tutor of live learning',
@@ -239,6 +255,38 @@ export const translations = {
     readyDesc: 'If you feel your organization\'s way of learning lacks life, Bhive Academy exists to change this story.',
     speakWithExpert: 'Speak with an expert',
 
+    // Methodology
+    threeLayers: '3 Living Layers',
+    layersDesc: 'Content, intelligence, and tutoring working as an organism.',
+    layer1Title: 'Layer 1: Content',
+    layer1Subtitle: 'Where classes live',
+    layer1Desc: 'Organize content into linear or exploratory journeys. The player adapts to pace: pauses, resumes, and bookmarks. An environment prepared for focus.',
+    layer2Title: 'Layer 2: Intelligence',
+    layer2Subtitle: 'The brain that orchestrates',
+    layer2Desc: 'AI agents analyze engagement and effort. Based on neuroscience, the system suggests reviews, adjusts challenges, and creates motivation cycles.',
+    layer3Title: 'Layer 3: Tutoring',
+    layer3Subtitle: 'The human voice of AI',
+    layer3Desc: 'AI-first avatars, like Sasha, converse with students. Calm, clear, and respectful language. Continuous support without unnecessary pressure.',
+    manifestQuote1: 'Learning from the past was static.',
+    manifestQuote2: 'The journey was the same for everyone.',
+    manifestMain: 'Bhive Academy exists to awaken what is',
+    manifestMainHighlight: 'alive',
+    manifestMainEnd: 'in learning.',
+    aiNeuroscienceTitle: 'AI + Applied Neuroscience',
+    aiNeuroscienceDesc: 'A cognitive core designed to converse with the student\'s brain.',
+    predictiveCoach: 'Sasha Predictive Coach',
+    predictiveCoachDesc: 'Based on the dopaminergic system. Creates healthy cycles of motivation and contextual feedback.',
+    learningGraph: 'Learning Graph',
+    learningGraphDesc: 'A living graph of concepts. Shows what is solid, what is fragile, and where to reinforce.',
+    activeRecall: 'Active Recall',
+    activeRecallDesc: 'Intelligent flashcards that trigger active recall at strategic moments.',
+    sleepSmartReviews: 'Sleep-Smart Reviews',
+    sleepSmartReviewsDesc: 'Reviews suggested at ideal circadian times for memory consolidation.',
+    socialLearning: 'Social Learning',
+    socialLearningDesc: 'Squads, Co-op Quests, and Peer Kudos to create mutual responsibility.',
+    cognitiveLoadBalancer: 'Cognitive Load Balancer',
+    cognitiveLoadBalancerDesc: 'Detects signs of overload and suggests breaks or simplified content.',
+
     // Footer
     livelearning: 'Live learning for living intelligence.',
     email: 'contatos@lpdigital.ai',
@@ -291,6 +339,14 @@ export const translations = {
     continuousIntelligenceDesc: 'IA monitoreando patrones de compromiso, caídas de enfoque y esfuerzo, generando intervenciones sutiles y relevantes en el momento adecuado.',
     pedagogicalCare: 'Cuidado Pedagógico',
     pedagogicalCareDesc: 'Datos accionables para que maestros, gerentes y equipos de L&D intervengan con precisión – donde realmente importa.',
+
+    // Hero - Hardcoded UI Elements
+    learningGraphActive: 'Learning Graph Activo',
+    cognitiveLabelPt: 'Carga Cognitiva',
+    engagementLabelPt: 'Compromiso',
+    codeSnippet1: '> analizando_foco_estudiante(id=492)... OK',
+    codeSnippet2: '> generando_intervención(tipo="recordación_activa")...',
+    codeSnippet3: '> estado_avatar_sasha: escuchando',
 
     // Product - Sasha
     livetutoring: 'Tutoría Viva',
@@ -345,6 +401,38 @@ export const translations = {
     readyForLiveHighlight: 'vivo en tu contexto?',
     readyDesc: 'Si sientes que la forma de aprender de tu organización carece de vida, Bhive Academy existe para cambiar esta historia.',
     speakWithExpert: 'Hablar con un experto',
+
+    // Methodology
+    threeLayers: '3 Capas Vivas',
+    layersDesc: 'Contenido, inteligencia y tutoría funcionando como un organismo.',
+    layer1Title: 'Capa 1: Contenido',
+    layer1Subtitle: 'Donde viven las clases',
+    layer1Desc: 'Organiza contenido en viajes lineales o exploratorios. El reproductor se adapta al ritmo: pausas, reanudaciones y marcadores. Un entorno preparado para el enfoque.',
+    layer2Title: 'Capa 2: Inteligencia',
+    layer2Subtitle: 'El cerebro que orquesta',
+    layer2Desc: 'Agentes de IA analizan el compromiso y esfuerzo. Basado en neurociencia, el sistema sugiere revisiones, ajusta desafíos y crea ciclos de motivación.',
+    layer3Title: 'Capa 3: Tutoría',
+    layer3Subtitle: 'La voz humana de la IA',
+    layer3Desc: 'Avatares impulsados por IA, como Sasha, conversan con estudiantes. Lenguaje tranquilo, claro y respetuoso. Apoyo continuo sin presión innecesaria.',
+    manifestQuote1: 'El aprendizaje del pasado era estático.',
+    manifestQuote2: 'El viaje era el mismo para todos.',
+    manifestMain: 'Bhive Academy existe para despertar lo que es',
+    manifestMainHighlight: 'vivo',
+    manifestMainEnd: 'en el aprendizaje.',
+    aiNeuroscienceTitle: 'IA + Neurociencia Aplicada',
+    aiNeuroscienceDesc: 'Un núcleo cognitivo diseñado para conversar con el cerebro del estudiante.',
+    predictiveCoach: 'Sasha Entrenador Predictivo',
+    predictiveCoachDesc: 'Basado en el sistema dopaminérgico. Crea ciclos saludables de motivación y retroalimentación contextual.',
+    learningGraph: 'Gráfico de Aprendizaje',
+    learningGraphDesc: 'Un gráfico vivo de conceptos. Muestra qué es sólido, qué es frágil y dónde reforzar.',
+    activeRecall: 'Recordación Activa',
+    activeRecallDesc: 'Tarjetas inteligentes que desencadenan recordación activa en momentos estratégicos.',
+    sleepSmartReviews: 'Revisiones Inteligentes del Sueño',
+    sleepSmartReviewsDesc: 'Revisiones sugeridas en tiempos circadianos ideales para la consolidación de la memoria.',
+    socialLearning: 'Aprendizaje Social',
+    socialLearningDesc: 'Escuadras, Misiones Cooperativas y Reconocimiento entre Pares para crear responsabilidad mutua.',
+    cognitiveLoadBalancer: 'Equilibrador de Carga Cognitiva',
+    cognitiveLoadBalancerDesc: 'Detecta signos de sobrecarga y sugiere descansos o contenido simplificado.',
 
     // Footer
     livelearning: 'Aprendizaje vivo para inteligencia viva.',
