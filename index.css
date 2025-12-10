@@ -1,0 +1,21 @@
+/* Dark theme (default) */
+html.dark {
+  --color-bg: #121212;
+  --color-surface: #2C2C2C;
+  --color-text: #FFFFFF;
+  --color-subtext: #A0A0A0;
+}
+
+/* Light theme */
+html.light {
+  --color-bg: #FFFFFF;
+  --color-surface: #F3F4F6;
+  --color-text: #1F2937;
+  --color-subtext: #6B7280;
+  --color-border: #E5E7EB;
+}
+
+/* Apply transitions for theme switching */
+* {
+  @apply transition-colors duration-300;
+}
