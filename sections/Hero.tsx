@@ -82,7 +82,7 @@ export const Hero = () => {
                     <div className="w-3 h-3 rounded-full bg-yellow-500/80 shadow-yellow-500/50" />
                     <div className="w-3 h-3 rounded-full bg-green-500/80 shadow-green-500/50" />
                  </div>
-                 <div className="text-xs dark:text-bhive-subtext light:text-gray-600 tracking-widest uppercase font-mono dark:opacity-50 light:opacity-70">Learning Graph Active</div>
+                 <div className="text-xs dark:text-bhive-subtext light:text-gray-600 tracking-widest uppercase font-mono dark:opacity-50 light:opacity-70">{t('learningGraphActive')}</div>
               </div>
 
               {/* Visualization */}
@@ -90,7 +90,7 @@ export const Hero = () => {
                  <div className="absolute top-10 left-10 p-4 dark:bg-[#1E1E1E]/60 light:bg-white/80 backdrop-blur-xl rounded-xl border dark:border-white/10 light:border-gray-200 shadow-xl animate-float">
                     <div className="flex items-center gap-3 mb-2">
                        <Brain className="w-5 h-5 text-purple-400" />
-                       <span className="text-sm font-semibold dark:text-white light:text-gray-900">Carga Cognitiva</span>
+                       <span className="text-sm font-semibold dark:text-white light:text-gray-900">{t('cognitiveLabelPt')}</span>
                     </div>
                     <div className="w-32 h-1.5 bg-neutral-800 rounded-full overflow-hidden">
                        <div className="h-full bg-purple-500 w-[70%] shadow-[0_0_10px_rgba(168,85,247,0.5)]" />
@@ -100,7 +100,7 @@ export const Hero = () => {
                  <div className="absolute bottom-20 right-10 p-4 dark:bg-[#1E1E1E]/60 light:bg-white/80 backdrop-blur-xl rounded-xl border dark:border-white/10 light:border-gray-200 shadow-xl animate-float-delayed">
                     <div className="flex items-center gap-3 mb-2">
                        <Activity className="w-5 h-5 text-orange-400" />
-                       <span className="text-sm font-semibold dark:text-white light:text-gray-900">Engajamento</span>
+                       <span className="text-sm font-semibold dark:text-white light:text-gray-900">{t('engagementLabelPt')}</span>
                     </div>
                     <div className="text-2xl font-bold dark:text-white light:text-gray-900">94% <span className="text-xs text-green-500 font-normal">▲ 12%</span></div>
                  </div>
@@ -116,9 +116,9 @@ export const Hero = () => {
 
               {/* Code/Data snippets */}
               <div className="mt-6 space-y-2 font-mono text-xs dark:text-bhive-subtext light:text-gray-600 dark:opacity-50 light:opacity-70">
-                 <p className="typing-effect">{`> analyzing_student_focus(id=492)... OK`}</p>
-                 <p>{`> generating_intervention(type="active_recall")...`}</p>
-                 <p>{`> sasha_avatar_status: listening`}</p>
+                 <p className="typing-effect">{t('codeSnippet1')}</p>
+                 <p>{t('codeSnippet2')}</p>
+                 <p>{t('codeSnippet3')}</p>
               </div>
            </div>
         </div>
