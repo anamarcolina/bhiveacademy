@@ -85,9 +85,9 @@ export const Methodology = () => {
       </div>
 
       {/* --- NEUROSCIENCE --- */}
-      <Section id="neuro" className="relative overflow-hidden">
+      <Section id="neuro" className="dark:bg-[#000000] light:bg-[#000000] relative overflow-hidden">
         {/* Background Image */}
-        <div className="absolute inset-0 dark:opacity-30 light:opacity-50 pointer-events-none">
+        <div className="absolute inset-0 dark:opacity-30 light:opacity-30 pointer-events-none">
           <img
             src="https://i.ibb.co/YT8nY6sQ/inteligencia-artificial.webp"
             alt="Background"
