@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bhive Academy - Aprendizagem Viva</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+            colors: {
+              bhive: {
+                bg: '#121212',
+                surface: '#2C2C2C',
+                text: '#FFFFFF',
+                subtext: '#A0A0A0',
+                success: '#4CAF50',
+                warning: '#FFC107',
+              }
+            },
+            backgroundImage: {
+              'primary-gradient': 'linear-gradient(135deg, #FF5722 0%, #FF9800 100%)',
+              'primary-gradient-hover': 'linear-gradient(135deg, #E64A19 0%, #F57C00 100%)',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      /* Dark theme (default) */
+      html.dark body {
+        background-color: #121212;
+        color: #FFFFFF;
+      }
+
+      /* Light theme */
+      html.light body {
+        background-color: #FFFFFF;
+        color: #1F2937;
+      }
+
+      /* Custom scrollbar for dark theme */
+      html.dark ::-webkit-scrollbar {
+        width: 8px;
+      }
+      html.dark ::-webkit-scrollbar-track {
+        background: #121212;
+      }
+      html.dark ::-webkit-scrollbar-thumb {
+        background: #2C2C2C;
+        border-radius: 4px;
+      }
+      html.dark ::-webkit-scrollbar-thumb:hover {
+        background: #FF5722;
+      }
+
+      /* Custom scrollbar for light theme */
+      html.light ::-webkit-scrollbar {
+        width: 8px;
+      }
+      html.light ::-webkit-scrollbar-track {
+        background: #F9FAFB;
+      }
+      html.light ::-webkit-scrollbar-thumb {
+        background: #E5E7EB;
+        border-radius: 4px;
+      }
+      html.light ::-webkit-scrollbar-thumb:hover {
+        background: #FF5722;
+      }
+    </style>
+
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.1/",
+    "react/": "https://aistudiocdn.com/react@^19.2.1/",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.559.0"
+  }
+}
+</script>
+  <script type="module" crossorigin src="/assets/index-CcGhEsue.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-cCpOkdgq.css">
+</head>
+  <body>
+    <div id="root"></div>
+</body>
+</html>
